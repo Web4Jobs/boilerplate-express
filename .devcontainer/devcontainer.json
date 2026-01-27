@@ -13,10 +13,10 @@
 		}
 	},
 	"postCreateCommand": "npm install",
-	"postStartCommand": "npm start",
 	"customizations": {
 		"vscode": {
 			"extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
 		}
 	}
 }
+
