@@ -3,18 +3,9 @@
 //
 // See https://aka.ms/devcontainer.json for more information.
 {
-  "name": "Node Dev Container",
+  "name": "Node App",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-
   "forwardPorts": [3000],
-
-  "portsAttributes": {
-    "3000": {
-      "label": "App",
-      "onAutoForward": "openPreview"
-    }
-  },
-
   "postCreateCommand": "npm install",
   "postStartCommand": "npm run start"
 }
